@@ -14,3 +14,5 @@ print(data["name"],"의 날씨입니다.")
 print("날씨는 " , data['weather'][0]["description"],'입니다')
 print('현재 온도는 ', str(int(data['main']['temp'])/10),"입니다.")
 print('체감 온도는 ', str(int(data['main']['feels_like']/10)),"입니다.")
+
+#https://m.blog.naver.com/jlhp1004/222209135500
